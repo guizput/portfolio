@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Simple HTML, SASS, JS app bundled with ParcelJs",
+  "author": "guigui",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "dependencies": {
+    "parcel": "2.8.1"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "@parcel/transformer-sass": "2.8.1",
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.3",
+    "postcss": "^8.4.21",
+    "posthtml-include": "^1.7.4"
+  }
+}
