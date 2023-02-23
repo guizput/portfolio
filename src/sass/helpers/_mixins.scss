@@ -1,0 +1,50 @@
+@use 'variables' as v;
+
+// Border radius
+@mixin radius($val: '1rem') {
+    border-radius: #{$val};
+}
+
+// Font
+@mixin font($size: 1rem, $weight: 'normal', $color: v.$dark) {
+    font-size: $size;
+    font-weight: $weight;
+    color: $color;
+    margin: .5em 0;
+}
+
+// Breakpoints
+@mixin xs {
+    @media screen and (min-width: map-get(v.$breakpoints, "xs")) {
+        @content;
+    }
+}
+
+@mixin sm {
+    @media screen and (min-width: map-get(v.$breakpoints, "sm")) {
+        @content;
+    }
+}
+
+@mixin md {
+    @media screen and (min-width: map-get(v.$breakpoints, "md")) {
+        @content;
+    }
+}
+
+@mixin lg {
+    @media screen and (min-width: map-get(v.$breakpoints, "lg")) {
+        @content;
+    }
+}
+
+@mixin xl {
+    @media screen and (min-width: map-get(v.$breakpoints, "xl")) {
+        @content;
+    }
+}
+
+//Shadow
+@mixin shadow {
+    box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.12);
+}
