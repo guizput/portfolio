@@ -1,7 +1,9 @@
 import Projects from './Projects.js';
-import projects from '../data/projects.js';
+import projectsData from '../data/projects.js';
 
 const ProjectsList = () => {
+
+    const projects = projectsData;
 
     return (
         <div className='flex flex-col space-y-8 mt-8'>
