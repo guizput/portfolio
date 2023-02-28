@@ -3,11 +3,13 @@ import {frontEnd, design} from '../data/skills.js';
 
 const SkillsList = () => {
 
+    const [frontEndData, designData] = [frontEnd, design];
+
     return ( 
         <div className='flex flex-col space-y-8'>
-            <Skills title="Front End" skills={frontEnd} />
+            <Skills title="Front End" skills={frontEndData} />
 
-            <Skills title="Design" skills={design} />
+            <Skills title="Design" skills={designData} />
         </div>
      );
 }
