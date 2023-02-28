@@ -2,6 +2,7 @@ import Profile from "./components/Profile.js";
 import Experience from "./components/Experience.js";
 import Hobbies from './components/Hobbies.js';
 import SkillsList from './components/SkillsList.js';
+import ProjectsList from "./components/ProjecstList.js";
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Experience />
       <Hobbies />
       <SkillsList />
+      <ProjectsList />
     </div>
   );
 };
