@@ -1,23 +1,26 @@
 import { useState } from "react";
+import gamingImage from '../../assets/gaming.jpg';
+import cookingImage from '../../assets/cooking.jpg';
+import bikingImage from '../../assets/biking.jpg';
 
 const Hobbies = () => {
 
     const [hobbies, setHobbies] = useState([
         {
             id: 1,
-            img: 'https://picsum.photos/800/400',
+            img: gamingImage,
             title: 'Gaming',
             desc: 'Quisque feugiat malesuada molestie.'
         },
         {
             id: 2,
-            img: 'https://picsum.photos/800/400',
+            img: cookingImage,
             title: 'Cooking',
             desc: 'Quisque feugiat malesuada molestie.'
         },
         {
             id: 3,
-            img: 'https://picsum.photos/800/400',
+            img: bikingImage,
             title: 'Biking',
             desc: 'Quisque feugiat malesuada molestie.'
         }
