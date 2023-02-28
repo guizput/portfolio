@@ -3,7 +3,7 @@ const Projects = ({projects}) => {
         <div className="flex flex-col space-y-8">
             {
                 projects.map(project =>
-                    <div className="rounded-xl bg-white shadow-lg p-5 pb-8">
+                    <div className="rounded-xl bg-white shadow-lg p-5 pb-8" key={project.id}>
                         <img src={project.img} alt="{project.title}" className="rounded-xl"/>
                         <p className="mt-4 text-gray-500">{project.tags}</p>
                         <h3 className=" text-gray-900 font-medium text-2xl mt-4">{project.title}</h3>
