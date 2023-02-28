@@ -30,7 +30,7 @@ const Experience = () => {
     ]);
 
     return ( 
-        <div className="rounded-lg bg-white shadow-lg p-5 pb-8">
+        <div className="rounded-lg bg-white shadow-lg px-5 py-8">
             <h2 className="text-gray-900 text-2xl font-medium">Experiences</h2>
             <ul>
                 {
