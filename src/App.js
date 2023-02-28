@@ -1,7 +1,9 @@
+import Profile from "./components/Profile.js";
+
 const App = () => {
   return (
-    <div>
-      <h1 className="text-4xl">Hello world!</h1>
+    <div className="py-8 px-4">
+      <Profile />
     </div>
   );
 };
