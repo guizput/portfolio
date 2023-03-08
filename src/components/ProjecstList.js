@@ -6,6 +6,7 @@ const ProjectsList = () => {
         {
             id: 1,
             img: 'https://devchallenges.io/_next/image?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fdevchallenges-1234.appspot.com%2Fo%2FchallengesDesigns%252FtodoThumbnail.png%3Falt%3Dmedia%26token%3D67a62272-6021-49de-ab19-cda0344d643c&w=750&q=75',
+            tags: '#React #TailwindCSS',
             title: 'Todo App',
             desc: 'A simple Todo App built with React and Tailwind CSS',
             demoLink: 'https://main--bright-hotteok-253247.netlify.app/',
